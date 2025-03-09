@@ -30,7 +30,7 @@
                 {% for emp in data %}
                 <tr>
                     <th>{{forloop.counter}}</th>
-                    <td><a href="#">{{emp}}</a></td>
+                    <td><a href="{% url 'emp_details' emp.pk%}">{{emp}}</a></td>
                     <td>{{emp.job}}</td>
                     <td>{{emp.phone_no}}</td>
                 </tr>
