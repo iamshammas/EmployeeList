@@ -29,7 +29,7 @@
             <tbody>
                 {% for emp in data %}
                 <tr>
-                    <th>1</th>
+                    <th>{{forloop.counter}}</th>
                     <td><a href="#">{{emp}}</a></td>
                     <td>{{emp.job}}</td>
                     <td>{{emp.phone_no}}</td>
