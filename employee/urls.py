@@ -5,5 +5,6 @@ from .models import Employee
 from . import views
 
 urlpatterns = [
+    path('',views.index,name='index'),
     path('<int:pk>',views.emp_details,name='emp_details'),
 ]
