@@ -27,12 +27,12 @@
                 </tr>
             </thead>
             <tbody>
-                {% for emp in employees %}
+                {% for emp in data %}
                 <tr>
                     <th>1</th>
-                    <td><a href="#">testing name</a></td>
-                    <td>Job Role</td>
-                    <td>number</td>
+                    <td><a href="#">{{emp}}</a></td>
+                    <td>{{emp.job}}</td>
+                    <td>{{emp.phone_no}}</td>
                 </tr>
                 {% endfor %}
             </tbody>
