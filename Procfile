@@ -1,1 +1,1 @@
-web: gunicorn EmployeeList.wsgi
+web: gunicorn mysite.wsgi
