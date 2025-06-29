@@ -1,0 +1,1 @@
+web: gunicorn EmployeeList.wsgi
