@@ -1,2 +1,5 @@
-pip install gunicorn
-pip freeze
+Django==4.2.4
+gunicorn
+sqlparse==0.4.4
+asgiref==3.7.2
+tzdata==2023.3
